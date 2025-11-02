@@ -2,7 +2,7 @@
   "name": "vue2-template-h5",
   "version": "1.0.0",
   "description": "移动端工程模板",
-  "author": "dawei <dawei@gmail.com>",
+  "author": "wenyan <wenyan@gmail.com>",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

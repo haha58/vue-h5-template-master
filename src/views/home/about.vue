@@ -8,7 +8,7 @@
           Vue管理系统全家桶:
           <a href="https://vue-admin-all.mrlishaohai.com/">https://vue-admin-all.mrlishaohai.com</a>
         </div>
-        <div class="item">项目作者: dawei</div>
+        <div class="item">项目作者: wenyan</div>
         <div class="item"></div>
         <div class="wechat">
           <img :src="this.wechat" alt="" />
@@ -58,7 +58,7 @@ import me from '@/assets/imgs/me.jpg'
 const todoList = [
   {
     id: 0,
-    task: '大伟聊前端',
+    task: '闻言聊前端',
     done: true
   },
   {
@@ -95,14 +95,14 @@ export default {
   methods: {
     // 请求数据案例
     initData() {
-      const params = { user: '大伟聊前端' }
+      const params = { user: '闻言聊前端' }
       getUserInfo(params)
         .then(() => {})
         .catch(() => {})
     },
     // Action 通过 store.dispatch 方法触发
     doDispatch() {
-      this.$store.dispatch('setUserName', '大伟聊前端')
+      this.$store.dispatch('setUserName', '闻言聊前端')
     }
   }
 }
