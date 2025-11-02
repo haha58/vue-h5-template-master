@@ -10,9 +10,6 @@
         </div>
         <div class="item">项目作者: wenyan</div>
         <div class="item"></div>
-        <div class="wechat">
-          <img :src="this.wechat" alt="" />
-        </div>
         <div class="item">
           {{ userName }}
           <van-button v-if="userName == ''" type="info" size="small" @click="doDispatch">获取用户信息</van-button>
